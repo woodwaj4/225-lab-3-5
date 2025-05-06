@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/woodwaj4'                                                                    //<------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/woodwaj4/225-lab-3-5.git'                                          //<------change this
-        KUBECONFIG = credentials('woodwaj4-225.yaml')                                                         //<------change this
+        KUBECONFIG = credentials('woodwaj4-225')                                                         //<------change this
     }
 
     stages {
